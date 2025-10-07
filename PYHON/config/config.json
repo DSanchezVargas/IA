@@ -1,0 +1,15 @@
+{
+  "project": {
+    "name": "Sistema Predictivo de Videojuegos",
+    "version": "1.0.0"
+  },
+  "data_collection": {
+    "steam_games": [1245620, 367520, 1091500],
+    "update_frequency_hours": 6
+  },
+  "model_training": {
+    "test_size": 0.2,
+    "random_state": 42,
+    "cv_folds": 5
+  }
+}
